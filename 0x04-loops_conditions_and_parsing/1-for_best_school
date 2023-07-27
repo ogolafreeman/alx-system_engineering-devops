@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 # displays Best School 10 times.
 
-c=1
-while [ $c -le 10 ]
+for (( c=1; c<=10; c++ ))
 do
     echo "Best School"
-    c=$((c + 1))
 done
