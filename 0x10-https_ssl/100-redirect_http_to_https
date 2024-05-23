@@ -47,5 +47,5 @@ frontend clickviral-frontend-https
 
 backend clickviral-backend
         balance roundrobin
-        server 333183-web-01 34.229.67.21:80 check
-        server 333183-web-02 2.85.141.137:80 check
+        server 333183-web-01 54.172.82.222:80 check
+        server 333183-web-02 18.204.16.60:80 check

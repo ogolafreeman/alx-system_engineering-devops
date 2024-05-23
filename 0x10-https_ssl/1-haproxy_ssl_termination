@@ -41,11 +41,11 @@ frontend clickviral-frontend
         default_backend clickviral-backend
 
 frontend clickviral-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/clickviral.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.mrreboot.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend clickviral-backend
 
 backend clickviral-backend
         balance roundrobin
-        server 333183-web-01 34.229.67.21:80 check
-        server 333183-web-02 2.85.141.137:80 check
+        server 333183-web-01 54.172.82.222:80 check
+        server 333183-web-02 18.204.16.60:80 check
